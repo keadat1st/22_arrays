@@ -41,7 +41,10 @@ public class ArrayEksempel{
       for (int i=0;i<5;i++){
          System.out.println("tal[" + i + "] er: " + tal2[i]);
       }
-      
+      //brug length af array
+      for (int i=0;i<tal2.length;i++){
+         System.out.println("tal[" + i + "] er: " + tal2[i]);
+      }
       
       //array med antal elementer fra input og array.length
       
